@@ -103,8 +103,8 @@ function rand() {
         }
 
     }
-    console.log(win_count_c);
-    console.log(win_count_p);
+    console.log(`your number of wins in five round :${win_count_c}`);
+    console.log(`computer number of wins in fic round :${win_count_p}`);
 
     if(win_count_p>win_count_c){
         alert("you win!!!");
