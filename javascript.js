@@ -63,8 +63,10 @@ function rand() {
         return 'rock'
     }else if (n==2){
         return 'paper'
-    }else{
-      return 'scissor'}
+    }else if (n==3){
+      return 'scissor'}else{
+        return -1
+      }
   }
 
 
