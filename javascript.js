@@ -109,7 +109,7 @@ function rand() {
     if(win_count_p>win_count_c){
         alert("you win!!!");
     }else if(win_count_p<win_count_c){
-        alert("you lose!!");
+        alert("you lose!!!");
     }
      
  }
