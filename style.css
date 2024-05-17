@@ -1,0 +1,73 @@
+*{
+    font-family: Jaro ;
+}
+
+body{
+    background: linear-gradient(221deg, #ffffff, #6d7354, #9aab6e);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 43s ease infinite;
+    -moz-animation: AnimationName 43s ease infinite;
+    animation: AnimationName 43s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+
+.choice{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    
+}
+.choice button{
+    background-color: rgb(163, 162, 137);
+    height: 100px;
+    width: 100px;
+}
+.stage{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    PADDING: 100PX;
+    GAP: 100PX;
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+.vs{
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.phch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wintext{
+    text-align: center;
+    font-size: 90px;
+}
