@@ -6,7 +6,7 @@ function playerch(){
 
 }
 function computerch(){
-    let cc=rand();
+    let cc=Math.floor(Math.random() * 3)+1;
     return cc
     
 }
@@ -34,40 +34,38 @@ function logic(a ,b ){
 
 
 
-function rand() {
-    return Math.floor(Math.random() * 3)+1;
-  }
+
   
-  function choice(str) {
+//   function choice(str) {
 
-    switch(str){
-        case 'rock':
+//     switch(str){
+//         case 'rock':
              
-            return 1
+//             return 1
          
 
-        case 'paper':
-            return 2
+//         case 'paper':
+//             return 2
           
-        case 'scissor': 
-            return 3
+//         case 'scissor': 
+//             return 3
          
-        default : return -1
+//         default : return -1
 
-    }
+//     }
    
     
-  }
-  function ntow(n){
-    if(n==1){
-        return 'rock'
-    }else if (n==2){
-        return 'paper'
-    }else if (n==3){
-      return 'scissor'}else{
-        return -1
-      }
-  }
+//   }
+//   function ntow(n){
+//     if(n==1){
+//         return 'rock'
+//     }else if (n==2){
+//         return 'paper'
+//     }else if (n==3){
+//       return 'scissor'}else{
+//         return -1
+//       }
+//   }
 
 
  function main(){
